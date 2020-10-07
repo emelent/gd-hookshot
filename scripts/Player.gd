@@ -14,7 +14,8 @@ var draw_hint = false
 var guide_point = null
 
 func _ready():
-	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
+	pass
+#	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 func _draw():
 	pass
