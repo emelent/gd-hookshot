@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Wall.tscn" type="PackedScene" id=1]
+
+[node name="Walls" type="Node2D"]
+position = Vector2( 509.727, 13.803 )
+
+[node name="Top" type="StaticBody2D" parent="." instance=ExtResource( 1 )]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Left" type="StaticBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -524.549, 202.344 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Right" type="StaticBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524.549, 202.344 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Bottom" type="StaticBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 603.541 )
+__meta__ = {
+"_edit_group_": true
+}
